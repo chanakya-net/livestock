@@ -14,6 +14,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\LiveStock.Application\LiveStock.Application.csproj" />
+      <ProjectReference Include="..\LiveStock.Contracts\LiveStock.Contracts.csproj" />
     </ItemGroup>
 
 </Project>
