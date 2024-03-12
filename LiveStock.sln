@@ -10,6 +10,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveStock.infrastructure", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveStock.WebApi", "LiveStock.WebApi\LiveStock.WebApi.csproj", "{8FD51882-E9A8-4931-A81A-93B0A02E84A6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requests", "Requests", "{AF71051B-0FE3-4510-AD65-1B6DE87E3D5F}"
+	ProjectSection(SolutionItems) = preProject
+		LiveStock.WebApi.http = LiveStock.WebApi.http
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
